@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora com prompt</title>
+    <link rel="stylesheet"
+</head>
+<body>
+    <style> 
+        body {
+            font-family: Arial, sans-serif; /* Fonte principal */ 
+            background-color: #f0f0f0; /* Cor de fundo */
+            display: flex; /* Display */
+            justify-content: center; /* Modelo do display */
+            align-items: center; /* Alinhamento dos itens */
+            height: 100vh; /* Altura */
+            margin: 0; /* Margem */
+        }
+        .calculator-box {
+            background-color: #fff; /* Fundo */
+            padding: 20px; /* Espaçamento dos itens */
+            border-radius: 10px; /* Inseri uma borda radial */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 300px; /* Largura */
+            text-align: center; /* Alinhamento do texto */
+        }
+        input[type="number"] { 
+            /* Determina que seja número o tipo de entrada do dado */
+            width: 95%; /* Largura */
+            padding: 10px; /* Espaçamento entre os itens */
+            margin: 10px 0; /* Margem */
+            border-radius: 5px; /* Borda radial */
+            border: 1px solid #ddd; /* Borda solida na cor desejada */
+            font-size: 16px; /* Tamanho da fonte */
+        }
+        button {
+            width: 50%; /* Largura do botão */
+            padding: 10px; /* Espaçamento entre os itens do botão */
+            background-color: #ff7300; /* Cor do botão */
+            color: white; /* Cor da fonte do botão */
+            border: none; /* Nenhuma borda */
+            border-radius: 5px; /* Efeito borda radial */
+            font-size: 16px; /* Tamanho da fonte */
+            cursor: pointer; /* Estilo do ponteiro como uma "mãozinha" */
+            margin: 10px;/*margem*/
+        }
+        button:hover {
+            background-color: #00f7ff; /* Efeito ao passar o mouse */
+        }
+        #result { /* O # chama um ID */
+            margin-top: 20px; /* Margem acima */
+            font-size: 18px; /* Tamanho da fonte */
+            font-weight: bold; /* Espessura da fonte */
+        }
+    </style>
+    
+    <div class="calculator-box">
+        <h2>Calculadora básica</h2>
+        <button onclick="calculate('add')">adição</button>
+        <button onclick="calculate('sub')">subtração</button>
+        <button onclick="calculate('mult')">multiplicação</button>
+        <button onclick="calculate('div')">divisão</button>
+    </div>
+
+    <script src="script.js">
+        
+    </script>
+</body>
+</html>
