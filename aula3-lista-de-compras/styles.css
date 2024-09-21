@@ -1,0 +1,59 @@
+/*define o estilo da página*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/*estiliza o contêiner central*/
+.container {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba( 0, 0, 0, 0.1);
+}
+
+/*estilo dos campos de input e botões */
+input[type="text"], input[type="number"] {
+    padding: 10px;
+    margin: 5px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+/*estilo do botão*/
+button{
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #ff8000;
+    color: white;
+    border: none;
+    border-radius: 15px 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ffaf71;
+}
+/*estilos da tabela*/
+table{
+    width: 100%;/*lagura*/
+    margin-top: 20px;/*alinhamento da margem acima*/
+    border-collapse: collapse;/*borda dispersa*/
+    text-align: left;
+}
+/*estilo das linhas e células da tabela*/
+th, td{
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+/*oculta elementos inicialmente*/
+.oculto {
+    display: none;/*retira o elemento do display*/
+}
