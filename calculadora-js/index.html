@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculadora simples</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>calculadora simples</h1>
+        <p>bem-vindo à nossa calculadora! escolha uma opção abaixo:</p>
+    </header>
+    <main>
+    <section id="imc-calculator">
+        <h2>calculadora de imc</h2>
+        <input type="number" id="weight" placeholder="peso (kg)">
+        <input type="number" id="height" placeholder="altura(m)">
+        <button onclick ="calculateIMC()">calcular imc</button>
+        <p id="imcResult"></p>
+    </section>    
+</main>
+
+<footer>
+    <p>&copy; 2024 nutricionista. todos os direitos reservados.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
